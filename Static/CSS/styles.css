@@ -1,0 +1,201 @@
+/* ///////////////////////////////////////////////////// */
+/* BODY */
+/* ///////////////////////////////////////////////////// */
+
+.body {
+  background-color :aliceblue; 
+  font-family :"Times New Roman, Times, serif";
+}
+
+/* ///////////////////////////////////////////////////// */
+/* HEADER */
+/* ///////////////////////////////////////////////////// */
+
+.container{
+  background-color :whitesmoke; 
+  padding-bottom: 15px;
+  left: 100px;
+  padding-left: 70px;
+  margin-right: 0px;
+
+}
+
+.main{
+  background-color :aliceblue;
+
+}
+  
+.navbar-brand{
+  color: #ffa3a3;
+  margin-top: 40px;
+  font-family: "tahoma";
+  font-weight: bold;
+  font-size: 40px;
+  min-height: 80px;
+}
+
+.navbar{
+  background-color :whitesmoke; 
+  border-bottom: 1.5px solid black;
+  padding-bottom: 40px;
+}
+
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
+#navbarNav {
+  float: right;
+}
+
+.nav-link{
+  font-family: "tahoma";
+  font-size: 20px;
+  font-weight: 200;
+  cursor: pointer;
+  position: relative;
+  display: inline;
+  float: right;
+
+}
+
+
+
+/* ///////////////////////////////////////////////////// */
+/* MAIN */
+/* ///////////////////////////////////////////////////// */
+
+p{
+  font-family :"tahoma";
+}
+
+.image{
+  margin-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 10px;
+}
+.wrapper {
+  display: grid;
+  position:relative;
+  margin-right: 0px;
+  width: 700px;
+  height: 320px;
+  margin-left: 0px;
+  background-color: whitesmoke;
+  border: 1.5px solid black;
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-top: 180px;
+
+}
+
+.css-typing{
+  font-family: "tahoma";
+  color:  #9898d4;
+  font-weight: bold;
+  text-align: center;
+  font-size:24px;
+}
+
+.row2{
+
+  margin-top: 100px;
+}
+
+.card-text{
+  font-family :"tahoma";
+  font-size: 18px;
+  text-align: center;
+}
+.card-title{
+  font-family :"tahoma";
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-img-top{
+  background-color :whitesmoke
+}
+.card-body{
+  background-color :whitesmoke
+
+}
+/* ///////////////////////////////////////////////////// */
+/* FOOTER */
+/* ///////////////////////////////////////////////////// */
+
+.row3{
+  background-color:#eebdbdcb;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+
+
+/* ///////////////////////////////////////////////////// */
+/* CHARTS */
+/* ///////////////////////////////////////////////////// */
+
+
+
+
+
+
+ 
+
+/*////////MEDIA QUERIES/////////
+/* Here we define some styles that will ONLY be applied at screen sizes below 600 pixels */
+ 
+@media only screen and (max-width: 1770px) {
+  
+  .wrapper{
+    height: 350px;
+  }
+  
+}
+
+@media only screen and (max-width: 1630px) {
+  
+  .wrapper{
+    height: 380px;
+  }
+  
+}
+
+@media only screen and (max-width: 1550px) {
+  
+  .wrapper{
+    height: 460px;
+  }
+  
+}
+@media only screen and (max-width: 1200px) {
+
+.wrapper{
+  height: 460px;
+}
+
+.css-typing{
+  font-size: 21px;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .wrapper{
+    height: 310px;
+    width
+  }
+  
+} 

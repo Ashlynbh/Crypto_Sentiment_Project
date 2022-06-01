@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=0.5">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Crypto Analysis</title>
-  <link rel="stylesheet" href="static/css/anime.css">
   <link rel="stylesheet" href="static/css/styles.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -20,8 +19,8 @@
     <a class="navbar-brand" style="color:rgba(#ffa3a3)" href="index.html">Crypto Analysis</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+     </button>
+     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
   
@@ -40,19 +39,38 @@
       <div  class="col-md-1 dropdown">
         <div  class="drop">
           <h5 >Select Coin</h5>
-          <select  id="select-year" onchange="optionChanged(this.value)"></select>
-        </div> 
+          <select id="selDataset">
+            <option value="Dataset1">Bitcoin</option>
+            <option value="Dataset2">Ethereum</option>
+            <option value="Dataset3">Dogecoin</option>
+          </select>
+         </div> 
+      </div> 
+    </div> 
+  </div> 
+      <div class="container-fluid chart">
+        <div class="row">
+          <div class="col"></div>
+          <img src="images/btcprice.png" alt="centered image"width="700" height="600"class="btc1", id = "btc1" >
+          <img src="images/eth_sentiment_price.png" alt="centered image"width="700" height="600"class="eth1", id = "eth1" >
+          <div class="col"></div>
+          <img src="images/btcsentiment2.png" alt="centered image"width="700" height="600"class="btc2" >
+          <div class="w-100"></div>
+          <div class="col"></div>
+          <img src="images/btcwcneg.png" alt="centered image"width="700" height="700"class="btc3" >
+          <div class="col"></div>
+          <img src="images/btcwcpos.png" alt="centered image"width="700" height="700"class="btc4" >
+        </div>
       </div>
 
       
-      </div>
     </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-  <script src="static/js/app.js"></script>
+  <script src="plots.js"></script>
   
 </body>
 

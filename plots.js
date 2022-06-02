@@ -32,11 +32,6 @@ function updatePlotly() {
   
   
   if (dataset === "Dataset1"){
-    console.log("test");
-    btcimg.style.display = "block";
-    btcimg2.style.display = "block";
-    btcimg3.style.display = "block";
-    btcimg4.style.display = "block";
 
   }
   

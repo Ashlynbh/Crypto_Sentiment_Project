@@ -1,8 +1,24 @@
 
 var btcimg = document.getElementById("btc1");
-// btcimg.style.display = "block";
+var btcimg2 = document.getElementById("btc2");
+var btcimg3 = document.getElementById("btc3");
+var btcimg4 = document.getElementById("btc4");
 var ethimg = document.getElementById("eth1");
+var ethimg2 = document.getElementById("eth2");
+var ethimg3 = document.getElementById("eth3");
+var ethimg4 = document.getElementById("eth4");
+var dogeimg = document.getElementById("doge1");
+var dogeimg2 = document.getElementById("doge2");
+var dogeimg3 = document.getElementById("doge3");
+var dogeimg4 = document.getElementById("doge4");
 ethimg.style.display = "none";
+ethimg2.style.display = "none";
+ethimg3.style.display = "none";
+ethimg4.style.display = "none";
+dogeimg.style.display = "none";
+dogeimg2.style.display = "none";
+dogeimg3.style.display = "none";
+dogeimg4.style.display = "none";
 
 function updatePlotly() {
 
@@ -17,23 +33,45 @@ function updatePlotly() {
   
   if (dataset === "Dataset1"){
     console.log("test");
-    // var img = document.getElementById("btc1");
     btcimg.style.display = "block";
     btcimg2.style.display = "block";
+    btcimg3.style.display = "block";
+    btcimg4.style.display = "block";
 
   }
   
   else if (dataset === "Dataset2"){
     console.log("test2");
-    // var ethimg = document.getElementById("eth1");
     ethimg.style.display = "block";
+    ethimg2.style.display = "block";
+    ethimg3.style.display = "block";
+    ethimg4.style.display = "block";
     btcimg.style.display = "none";
+    btcimg2.style.display = "none";
+    btcimg3.style.display = "none";
+    btcimg4.style.display = "none";
+    dogeimg.style.display = "none";
+    dogeimg2.style.display = "none";
+    dogeimg3.style.display = "none";
+    dogeimg4.style.display = "none";
+
   }
   
   else {
     console.log("test3");
-    var img = document.getElementById("btc1");
-    img.style.display = "none";
+    dogeimg.style.display = "block";
+    dogeimg2.style.display = "block";
+    dogeimg3.style.display = "block";
+    dogeimg4.style.display = "block";
+    btcimg.style.display = "none";
+    btcimg2.style.display = "none";
+    btcimg3.style.display = "none";
+    btcimg4.style.display = "none";
+    ethimg.style.display = "none";
+    ethimg2.style.display = "none";
+    ethimg3.style.display = "none";
+    ethimg4.style.display = "none";
+    
   };
 
   

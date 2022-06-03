@@ -38,6 +38,22 @@ function updatePlotly() {
   
   
   if (dataset === "Dataset1"){
+    btcimg.style.display = "block";
+    btcimg2.style.display = "block";
+    btcimg3.style.display = "block";
+    btcimg4.style.display = "block";
+    btcimg5.style.display = "block";
+    ethimg.style.display = "none";
+    ethimg2.style.display = "none";
+    ethimg3.style.display = "none";
+    ethimg4.style.display = "none";
+    ethimg5.style.display = "none";
+    dogeimg.style.display = "none";
+    dogeimg2.style.display = "none";
+    dogeimg3.style.display = "none";
+    dogeimg4.style.display = "none";
+    dogeimg5.style.display = "none";
+
 
   }
   
@@ -85,4 +101,4 @@ function updatePlotly() {
 
 }
 d3.selectAll("#selDataset").on("change", updatePlotly);
-// updatePlotly();
+updatePlotly();

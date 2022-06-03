@@ -72,6 +72,41 @@ p{
   font-family :"tahoma";
 }
 
+.center_text{
+  text-align: center;
+}
+
+.center_cont{
+  justify-content: center;
+}
+
+.results_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 40%;
+}
+
+
+.results_img2{
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 1.25%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.results_img3{
+  display: block;
+  margin-top: 1%;
+  margin-bottom: 1.25%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
 .image{
   margin-left: 10px;
   padding-top: 30px;
@@ -209,7 +244,7 @@ margin-left: 20px;
 #doge4{
   margin-right: 120px;
 }
-
+/*
 #btc5{
   margin-left:10px;
 
@@ -220,7 +255,8 @@ margin-left: 20px;
   margin-top:60px;
 
 }
-
+*/
+/*
 #btc7{
   margin-right:500px;
   margin-top:150px;
@@ -261,7 +297,7 @@ margin-left: 20px;
   margin-top:150px;
 
 }
-
+*/
 #btc{
   margin-left:380px;
 }

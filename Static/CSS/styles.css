@@ -87,8 +87,20 @@ p{
   margin-bottom: auto;
   
 }
-
-
+.charts_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  
+}
+.charts_img2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  
+}
 .results_img2{
   display: block;
   margin-top: 5%;
@@ -218,7 +230,7 @@ p{
 
 margin-left: 20px;
 }
-
+/*
 #btc1{
   margin-top: 50px;
   margin-left:0px;
@@ -262,6 +274,7 @@ margin-left: 20px;
 #doge4{
   margin-right: 120px;
 }
+*/
 /*
 #btc5{
   margin-left:10px;
@@ -316,6 +329,7 @@ margin-left: 20px;
 
 }
 */
+/*
 #btc{
   margin-left:380px;
 }
@@ -325,7 +339,7 @@ margin-left: 20px;
 #doge{
   margin-left:380px;
 }
- 
+*/ 
 
 /*////////MEDIA QUERIES/////////
 /* Here we define some styles that will ONLY be applied at screen sizes below 600 pixels */

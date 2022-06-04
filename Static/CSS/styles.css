@@ -229,6 +229,23 @@ p{
     background-color :whitesmoke;
     }
 
+    .boxwc{
+      border: 1.5px solid black;
+      padding: 5px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      font-family :"tahoma";
+      height: 50px;
+      width:200px;
+      margin-top:0px;
+      margin-bottom: 20px;
+      background-color :whitesmoke;
+      font-weight: bold;
+      margin-left: 330px;
+      }
+
 .chart {
   background-color :aliceblue; 
 }

@@ -99,7 +99,20 @@ p{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
-  
+}
+
+.charts_img3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+#eth4{
+  margin-bottom: -8%;
+}
+#doge4{
+  margin-bottom: -8%;
 }
 .results_img2{
   display: block;
@@ -117,6 +130,10 @@ p{
   margin-left: auto;
   margin-right: auto;
   
+}
+
+.spacer {
+  margin-bottom: 1.25%;
 }
 
 .image{
